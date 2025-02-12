@@ -1,14 +1,8 @@
-{
-  "name": "meulocalideal",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
-  }
+export default function Home() {
+  return (
+    <div>
+      <h1>Bem-vindo ao Meu Local Ideal</h1>
+      <p>Encontre o espaço perfeito para seu evento!</p>
+    </div>
+  );
 }
